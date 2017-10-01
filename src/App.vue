@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <draggable v-model="parameters">
+    <draggable v-model="parameters" :options="{forceFallback: true}">
       <button type="button" class="btn btn-primary" v-for="(item, index) in parameters" :key="item">{{ item }}</button>
     </draggable>
 
