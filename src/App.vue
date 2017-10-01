@@ -33,7 +33,7 @@
 
 <script>
 import draggable from 'vuedraggable'
-import sortable from './components/sortable.vue'
+import sortable from './components/Sortable.vue'
 import list from './components/List.vue'
 import getData from './util/data'
 
